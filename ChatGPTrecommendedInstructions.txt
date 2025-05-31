@@ -1,0 +1,35 @@
+Instruction.txt for Claude 4 — Jupyter Notebook Creation with IPython Integration for Data Visualization
+
+Objective:  
+Create a Jupyter Notebook file (.ipynb) that demonstrates data visualization integrating IPython features effectively, adhering to a structured abstract-driven workflow.
+
+Instructions:
+
+1. Notebook Structure:
+   - Title Cell (Markdown): Clearly state the project or analysis title.
+   - Abstract Cell (Markdown): Provide a concise summary outlining the objective, dataset, methods, and expected insights.
+   - Import Libraries Cell (Code): Import essential libraries including pandas, matplotlib, seaborn, and IPython.display.
+   - Data Loading Cell (Code): Load dataset with brief comments on source and structure.
+   - Data Preprocessing Cell (Code): Handle missing values, feature engineering, and any cleaning steps.
+   - Visualization Cells (Code): 
+       - Use IPython magic commands for enhanced display (e.g., `%matplotlib inline`).
+       - Employ matplotlib and seaborn for plots.
+       - Integrate IPython display utilities (e.g., `display()`, `clear_output()`) to manage output clarity.
+       - Include descriptive Markdown cells explaining each visualization's purpose and interpretation.
+   - Conclusion Cell (Markdown): Summarize key findings from visualizations.
+
+2. IPython Integration Details:
+   - Enable inline plotting using `%matplotlib inline`.
+   - Use IPython.display functions to dynamically update or control output when demonstrating interactive or iterative visualizations.
+   - Optionally demonstrate use of IPython widgets (e.g., sliders) to manipulate visual parameters if applicable.
+
+3. Code Style:
+   - Use clear, concise comments.
+   - Structure code into logical blocks corresponding to notebook sections.
+   - Ensure reproducibility with fixed random seeds where relevant.
+
+4. Output:
+   - Provide the complete `.ipynb` file with all code, markdown, and outputs saved.
+   - Ensure no external dependencies beyond standard Python data science libraries.
+
+End of Instruction.
